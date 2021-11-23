@@ -7,4 +7,7 @@ calc_det:
             enter       4, 0
             push        ebx
 
-            dump_stack  1, 4, 4
+            dump_stack  1, 3, 5
+
+            pop         ebx
+            leave
