@@ -43,7 +43,7 @@ calc_det:
 ; Llamo a la funcion que realiza el calculo
             call   do_calc
 
-: Terminar el programa
+; Terminar el programa
             popa
             leave
             ret
